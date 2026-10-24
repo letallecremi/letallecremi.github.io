@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alfred — règles de confidentialité</title>
+  <style>
+    :root { --fond: #fafaf7; --texte: #1f2328; --doux: #59636e; --lien: #0b5cad; }
+    @media (prefers-color-scheme: dark) { :root { --fond: #16181c; --texte: #e6e6e6; --doux: #a0a7b0; --lien: #6cb0ff; } }
+    body { margin: 0; background: var(--fond); color: var(--texte);
+           font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 680px; margin: 0 auto; padding: 48px 16px; }
+    h1 { font-size: 1.9rem; margin: 0 0 1em; }
+    h2 { font-size: 1.2rem; margin-top: 2em; }
+    a { color: var(--lien); }
+    footer { margin-top: 3em; color: var(--doux); font-size: .9rem; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Règles de confidentialité d'Alfred</h1>
+
+  <p>Alfred est un assistant personnel privé, utilisé uniquement par son auteur.
+  Ces règles décrivent ce qu'il fait des données auxquelles il accède.</p>
+
+  <h2>Données consultées</h2>
+  <ul>
+    <li><strong>Google Agenda</strong> : titres, horaires et lieux des évènements,
+      en lecture seule (autorisation <code>calendar.readonly</code>).</li>
+    <li><strong>Google Tasks</strong> : listes et tâches ; une tâche n'est créée que sur
+      action explicite de l'utilisateur. Alfred ne modifie ni ne supprime aucune tâche.</li>
+  </ul>
+
+  <h2>Où vont les données</h2>
+  <ul>
+    <li>Les données sont copiées et traitées <strong>uniquement sur le matériel personnel</strong>
+      de l'utilisateur (ordinateur et serveur domestique), sur son réseau local.</li>
+    <li>Elles ne sont <strong>ni vendues, ni partagées, ni transmises</strong> à un tiers,
+      ni à un service d'intelligence artificielle en ligne : le traitement se fait avec un
+      modèle exécuté localement.</li>
+    <li>Aucune donnée n'est utilisée à des fins publicitaires.</li>
+  </ul>
+
+  <h2>Conservation et révocation</h2>
+  <p>L'utilisateur peut à tout moment retirer l'accès d'Alfred depuis son compte Google
+  (<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>)
+  et supprimer les copies locales.</p>
+
+  <h2>Utilisation des données des API Google</h2>
+  <p>L'utilisation et le transfert des informations reçues des API Google respectent les
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">règles relatives
+  aux données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation
+  limitée.</p>
+
+  <footer><a href="index.html">← Accueil</a></footer>
+</main>
+</body>
+</html>
